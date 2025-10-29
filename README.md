@@ -15,7 +15,11 @@ No build or server required — just open `index.html` in your browser. You can 
 ```markdown
 ![Gameplay demo](assets/image-desktop.png)
 ```
+![Gameplay demo](assets/image-desktop.png)
 
+```markdown
+![Gameplay demo](assets/image-mobile.png)
+```
 ![Gameplay demo](assets/image-mobile.png)
 
 ---
