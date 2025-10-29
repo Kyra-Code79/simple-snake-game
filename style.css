@@ -1,0 +1,35 @@
+body {
+    font-family: 'Inter', sans-serif;
+    /* Prevent scrolling when using arrow keys or touch */
+    overflow: hidden;
+    background-color: #111827; /* gray-900 */
+}
+canvas {
+    background-color: #1f2937; /* gray-800 */
+    border: 2px solid #374151; /* gray-700 */
+}
+/* Use a monospaced font for the score for a retro feel */
+#score-container {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Custom class for the game-over overlay */
+.game-overlay {
+    background-color: rgba(31, 41, 55, 0.85); /* gray-800 with opacity */
+    backdrop-filter: blur(5px);
+}
+
+/* Style for virtual arrow buttons */
+.control-btn {
+    background-color: #374151; /* gray-700 */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px; /* full */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.control-btn:active {
+    background-color: #4b5563; /* gray-600 */
+}
